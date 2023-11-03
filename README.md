@@ -16,10 +16,11 @@
 - к.т.н., доцент Денисов Д.В.
 - к.э.н., доцент Панов М.А.
 - ст. преп., Фадеев В.О.
-
+  
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
 
 Структура отчета
 
@@ -43,6 +44,7 @@
 - Установили Anaconda.
 - Запустили инструмент Jupyter Notebook.
 - Создали файл с кодом, выводящим сообщение "Hello world".
+  
 ![Снимок экрана (486)](https://github.com/Vedro12/workshop1/assets/127394413/28598fc4-ab14-4a10-b430-0cdcc137e9c3)
 
 ## Задание 2
