@@ -17,7 +17,7 @@
 - к.э.н., доцент Панов М.А.
 - ст. преп., Фадеев В.О.
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+[![N|Solid](https://cldup.com/dTxpPi9lDf![Снимок экрана (486)](https://github.com/Vedro12/workshop1/assets/127394413/9e9599ac-6072-4f9b-9916-ef92f15cf38a)thumb.png)](https://nodesource.com/products/nsolid)
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
@@ -43,7 +43,7 @@
 - Установили Anaconda.
 - Запустили инструмент Jupyter Notebook.
 - Создали файл с кодом, выводящим сообщение "Hello world".
-![Снимок экрана (486)](https://github.com/Vedro12/workshop1/assets/127394413/b56646c4-2a2d-4e01-a970-e029c226922c)
+![Снимок экрана (486)](https://github.com/Vedro12/workshop1/assets/127394413/28598fc4-ab14-4a10-b430-0cdcc137e9c3)
 
 ## Задание 2
 ### Установка Unity.
@@ -51,8 +51,8 @@
 - Установили среду для работы с языком C#.
 - Создали первой сцены.
   
-![Снимок экрана (488)](https://github.com/Vedro12/workshop1/assets/127394413/2428bf9a-c50e-48c7-9b2c-a38fc9c0fccd)
-![Снимок экрана (487)](https://github.com/Vedro12/workshop1/assets/127394413/a392edee-0409-45df-a8b0-baa3ba16df22)
+![Снимок экрана (487)](https://github.com/Vedro12/workshop1/assets/127394413/96db4dda-f6f7-4a81-952a-c7a5f51925cc)
+![Снимок экрана (488)](https://github.com/Vedro12/workshop1/assets/127394413/a53f3aab-28c3-48f6-9fba-8af9c7338787)
 
 ## Задание 3
 ### Создание отчета.
