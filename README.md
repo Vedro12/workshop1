@@ -50,6 +50,7 @@
 - Установили и зарегистрировались в Unity.
 - Установили среду для работы с языком C#.
 - Создали первой сцены.
+  
 ![Снимок экрана (488)](https://github.com/Vedro12/workshop1/assets/127394413/2428bf9a-c50e-48c7-9b2c-a38fc9c0fccd)
 ![Снимок экрана (487)](https://github.com/Vedro12/workshop1/assets/127394413/a392edee-0409-45df-a8b0-baa3ba16df22)
 
