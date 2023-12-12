@@ -52,7 +52,33 @@
 
 ## Задание 3
 ### Решение в 80+ баллов должно заполнять google-таблицу данными из Python. В Python данные также должны быть визуализированы.
+Заполнили таблицу данными, в первом столбце номер итерации, во втором скорость дракона, в третьем увеличение ширины экрана. В последенем получившийся коэффициент сложности.
 
+```py
+
+
+import gspread
+import numpy as np
+gc = gspread.service_account(filename='unityds-404412-c6bf99400c74.json')
+sh = gc.open("UnityDS")
+mon = list(range(1,11))
+i = 0
+speed = 3
+width = 9
+while i <= len(mon):
+    i += 1
+    speed += 1
+    width += 1
+    sh.sheet1.update(('A' + str(i)), str(i))
+    sh.sheet1.update(('B' + str(i)), str(speed))
+    sh.sheet1.update(('C' + str(i)), str(width))
+    sh.sheet1.update(('D' + str(i)), str(width*speed))
+    print(i, speed*width)
+
+
+```
+
+![Снимок экрана (534)](https://github.com/Vedro12/workshop1/assets/127394413/898a492a-0e99-4c56-8761-1f67e100adf8)
 
 ## Выводы
 
