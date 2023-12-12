@@ -6,9 +6,9 @@
 
 | Задание | Выполнение | Баллы |
 | ------ | ------ | ------ |
-| Задание 1 | # |  |
-| Задание 2 | # |  |
-| Задание 3 | # |  |
+| Задание 1 | * |  |
+| Задание 2 | * |  |
+| Задание 3 | * |  |
 
 знак "*" - задание выполнено; знак "#" - задание не выполнено;
 
@@ -222,19 +222,18 @@ public class NewBehaviourScript : MonoBehaviour
 
 ```
 
+![Снимок экрана (529)](https://github.com/Vedro12/workshop1/assets/127394413/7210a962-0aef-4392-8a21-a0edd6a0eea9)
+![Снимок экрана (530)](https://github.com/Vedro12/workshop1/assets/127394413/21bef859-de17-4414-bb36-9f252f751e6e)
+
 
 ## Выводы
-
+В процессе выполнения лабораторной работы мы научилис заполнять google-таблицы с помощью Python, а также передавать данные из этой таблицы в Unity.
 
 
 | Plugin | README |
 | ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
 | GitHub | [plugins/github/README.md][PlGh] |
 | Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
 
 ## Powered by
 
