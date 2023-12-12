@@ -45,6 +45,50 @@
 ## Задание 2
 ### С помощью скрипта на языке Python заполните google-таблицу данными, описывающими выбранную игровую переменную в выбранной игре (в качестве таких переменных может выступать игровая валюта, ресурсы, здоровье и т.д.). Средствами google-sheets визуализируйте данные в google-таблице (постройте график, диаграмму и пр.) для наглядного представления выбранной игровой величины.
 
+```py
+
+
+import gspread
+import numpy as np
+gc = gspread.service_account(filename='unityds-404412-c6bf99400c74.json')
+sh = gc.open("UnityDS")
+price = np.random.randint(0, 5001, 11)
+mon = list(range(1,11))
+i = 0
+while i <= len(mon):
+    i += 1
+    if i == 0:
+        continue
+    else:
+        bloodpoints = price[i-1]
+        item = 0
+        if bloodpoints < 2000:
+            item = 0
+        else: 
+            if bloodpoints < 2500:
+                item = 1
+            else: 
+                if bloodpoints < 3250:
+                    item = 2
+                else: 
+                    if bloodpoints < 4000:
+                        item = 3
+                    else: 
+                        if bloodpoints < 5000:
+                            item = 4
+                        else: 
+                            if bloodpoints == 5000:
+                                item = 5
+        bloodpoints = str(bloodpoints)
+        item = str(item)
+        sh.sheet1.update(('A' + str(i)), str(i))
+        sh.sheet1.update(('B' + str(i)), str(bloodpoints))
+        sh.sheet1.update(('C' + str(i)), str(item))
+        print(item)
+
+
+
+```
 
 ## Задание 3
 ### Настройте на сцене Unity воспроизведение звуковых файлов, описывающих динамику изменения выбранной переменной. Например, если выбрано здоровье главного персонажа вы можете выводить сообщения, связанные с его состоянием.
